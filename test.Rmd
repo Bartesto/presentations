@@ -1,0 +1,44 @@
+---
+title: "New things in R"
+author: Bart Huntley
+date: February 29, 2016
+output:
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: pygments
+    center: true
+---
+
+# What's Ahead?
+## 
+
+- Reproducible Research and Reporting - R Style
+- Developments in cloud QA
+- Animation
+
+# Reproducible Research
+## What is it?
+*The goal of reproducible research is to tie specific instructions to data analysis and experimental data so that scholarship can be recreated - Max Kuhn* 
+
+By using R Studio and R Markdown this becomes a much easier task.
+
+## The concept
+
+- Write your analysis code (from inputs to visualisations)
+- Write explanatory text
+- Weave the two into one standalone report 
+
+## The benefits
+
+- The report is rendered in HTML (easy to email, displays in a browser)
+- The analysis code is run to generate the report (it has to work!)
+- Reports are formatted to a standard (looks professional)
+
+# 3rd
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
