@@ -1,0 +1,74 @@
+---
+title: "Fieldwork"
+output:
+  revealjs::revealjs_presentation:
+    theme: black
+    highlight: pygments
+    center: true
+    fig_width: 7
+    fig_height: 5
+    fig_caption: true
+    reveal_options:
+      slideNumber: true
+---
+
+## Walyarta September 2014 {data-background="redroad.jpg"}
+
+
+##
+![<small>fieldworkers</small>](peeps.jpg) 
+
+##
+![<small>camels</small>](camels.jpg)
+
+##
+![<small>a mangrove for Kathy</small>](mang.jpg)
+
+##
+![<small>checkin' out the fish at salt creek</small>](saltck.jpg)
+
+##
+![<small>Teddy</small>](teddy.jpg)
+
+## Dirk Hartog May 2015 {data-background="car.jpg"}
+
+##
+![<small>the new barge</small>](barge.jpg)
+
+##
+![<small>eagle</small>](eagle.jpg)
+
+##
+![<small>lighthouse at Cape Inscription</small>](inscription.jpg)
+
+##
+![<small>sunset at the airstrip</small>](sunset.jpg)
+
+##
+![<small>western cliffs</small>](cliffs.jpg)
+
+##
+![<small>sea eagle using our shower</small>](eagle2.jpg)
+
+##
+![<small>wicked surf!</small>](surf.jpg)
+
+## Thanks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
