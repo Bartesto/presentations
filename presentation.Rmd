@@ -1,0 +1,105 @@
+---
+title: "New things in R"
+author: Bart Huntley
+date: February 29, 2016
+output:
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: pygments
+    center: true
+    fig_width: 7
+    fig_height: 5
+    fig_caption: true
+    incremental: true
+    reveal_options:
+      slideNumber: true
+---
+
+ 
+## What's Ahead?
+![<small>https:\\xkcd.com</small>](automation.png) 
+
+- Reproducible Research and Reporting - R Style
+- Developments in cloud QA
+- Animation
+
+
+# Reproducible Research
+## What is it?
+*The goal of reproducible research is to tie specific instructions to data analysis and experimental data so that scholarship can be recreated - [Max Kuhn](https://cran.r-project.org/web/views/ReproducibleResearch.html)* 
+
+By using R Studio and R Markdown this becomes a much easier task.
+
+## The concept
+
+- Write your analysis code (from inputs to visualisations)
+- Write explanatory text
+- Weave the two into one standalone report 
+
+## The benefits
+
+- The analysis code is run to generate the report (it has to work!)
+- The analysis can be re-run and the same results obtained
+- An update of the raw data produces the "next" report (annual reports?)
+- The report is rendered in HTML (easy to email, displays in a browser, looks professional)
+
+## Examples
+
+1. Statistical Report GAMMs
+2. Modelling Wetlands
+
+# Developments in cloud QA
+##
+![<small>https:\\xkcd.com</small>](cloud.png)
+
+Cloud QA has become an increasingly important (and onerous) task in the 
+processing stream for analysing dense time series
+
+
+## The old method
+
+1. Extract index values for each site for all scenes and store in a spreadsheet
+2. Create ecw enhancements of each Landsat scene
+3. Load into an ArcGIS mxd and check each scene for each site (532 images x *n* sites)
+4. Delete index value from spreadsheet if cloud affected (up to 30 mins per site)
+3. Time consuming, error prone and "laggy" due to rendering rates in ArcGIS
+
+##
+![](ArcGIS_QA.png)
+
+
+## The new method
+
+1. Run R code which zooms to a site, stretches the Landsat scene, creates a jpeg and saves it to a
+site specific QA folder (~ 7mins per site on 532 scenes)
+2. Use Windows Explorer to view each scene and delete if cloud affected (~ 5mins per site for 532 scenes)
+3. Run a second R code to obtain dates of good images from the QA folder, extract 
+user supplied index and compile into a csv for further analysis
+4. Plot the site values (use Plotly) and query remaining outliers in ArcGIS based on date
+
+##
+![<small>QA in Windows Explorer</small>](QA_mill.png)
+
+##
+![<small>QA'd extracted values ready for analysis</small>](QA_out.csv.png)
+
+## Spinoffs!
+- The jpeg creation code is good for other things too (fire scars)
+- Writing the code has led to some other functions:
+    + Code to split one shapefile into many based on an attribute
+    + Code to rename ecw with reverse date (ordering in ArcGIS)
+    
+# Animations
+## {data-background-video="walyarta-animation-543-Jan88-Jun15.mp4"}
+
+##
+<video data-autoplay src="SW-Fire-animation-321-Jan14-Dec14.mp4"></video>
+
+
+## Questions??
+![<small>This presentation was written in R Markdown and converted to HTML using knitr and reveal.js</small>](not_powerpt.png)
+
+<http://rmarkdown.rstudio.com>
+
+<http://lab.hakim.se/reveal-js/#/>
+
