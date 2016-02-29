@@ -12,46 +12,46 @@ output:
       slideNumber: true
 ---
 
-## Walyarta September 2014 {data-background="redroad.jpg"}
+## Walyarta September 2014 {data-background="images/redroad.jpg"}
 
 
 ##
-![<small>fieldworkers</small>](peeps.jpg) 
+![<small>fieldworkers</small>](images/peeps.jpg) 
 
 ##
-![<small>camels</small>](camels.jpg)
+![<small>camels</small>](images/camels.jpg)
 
 ##
-![<small>a mangrove for Kathy</small>](mang.jpg)
+![<small>a mangrove for Kathy</small>](images/mang.jpg)
 
 ##
-![<small>checkin' out the fish at salt creek</small>](saltck.jpg)
+![<small>checkin' out the fish at salt creek</small>](images/saltck.jpg)
 
 ##
-![<small>Teddy</small>](teddy.jpg)
+![<small>Teddy</small>](images/teddy.jpg)
 
-## Dirk Hartog May 2015 {data-background="car.jpg"}
-
-##
-![<small>the new barge</small>](barge.jpg)
+## Dirk Hartog May 2015 {data-background="images/car.jpg"}
 
 ##
-![<small>eagle</small>](eagle.jpg)
+![<small>the new barge</small>](images/barge.jpg)
 
 ##
-![<small>lighthouse at Cape Inscription</small>](inscription.jpg)
+![<small>eagle</small>](images/eagle.jpg)
 
 ##
-![<small>sunset at the airstrip</small>](sunset.jpg)
+![<small>lighthouse at Cape Inscription</small>](images/inscription.jpg)
 
 ##
-![<small>western cliffs</small>](cliffs.jpg)
+![<small>sunset at the airstrip</small>](images/sunset.jpg)
 
 ##
-![<small>sea eagle using our shower</small>](eagle2.jpg)
+![<small>western cliffs</small>](images/cliffs.jpg)
 
 ##
-![<small>wicked surf!</small>](surf.jpg)
+![<small>sea eagle using our shower</small>](images/eagle2.jpg)
+
+##
+![<small>wicked surf!</small>](images/surf.jpg)
 
 ## Thanks
 
